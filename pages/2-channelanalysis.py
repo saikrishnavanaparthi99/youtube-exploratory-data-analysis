@@ -5,10 +5,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
-#from streamlit_player import st_player
+from streamlit_player import st_player
 import plotly.graph_objects as go
-#import plotly.figure_factory as ff
-#from st_aggrid import AgGrid
+import plotly.figure_factory as ff
+from st_aggrid import AgGrid
 
 st.markdown(" # 📊 Youtube data analysis on Mrwhosetheboss youtube channel")
 st.sidebar.markdown("# 📊 Youtube data analysis on Mrwhosetheboss youtube channel")
